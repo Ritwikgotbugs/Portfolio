@@ -1,5 +1,4 @@
 import { useStaggeredAnimation } from '@/lib/utils';
-import Image from 'next/image';
 import { useRouter } from "next/router";
 import { JSX, useEffect, useMemo, useState } from "react";
 import { FiGithub, FiUser } from "react-icons/fi";
@@ -59,13 +58,12 @@ export default function Sidebar() {
             style={sidebarAnimations[0].style}
             className={`${sidebarAnimations[0].className}`}
           >
-            <Image
+            <img
               src="/assets/avatar.png"
               alt="Avatar"
               width={128}
               height={128}
               className="w-32 h-32 rounded-lg object-cover"
-              priority
             />
           </div>
           
