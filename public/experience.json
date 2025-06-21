@@ -1,0 +1,57 @@
+[
+    {
+        "organization": "Bash India",
+        "url": "https://bash.spraresoft.com/",
+        "role": "Software Development Engineer",
+        "duration": "Dec. 2024 – Jul. 2025",
+        "location": "Remote",
+        "description": [
+            "Engineered multiple cross-platform applications for clubs, streamlining overall operations — reducing manual work and enhancing operational transparency.",
+            "Developed whatsapp bots, reduced server calls and overhead for a better and faster experience ",
+            "Built and integrated deeplinks in Flutter for in-app features enhancing user navigation."
+        ],
+        "tech": [
+            "NodeJs",
+            "ExpressJs",
+            "Docker",
+            "MariaDB",
+            "Flutter",
+            "Dart"
+        ]
+      },
+    {
+        "organization": "AD-DING",
+        "url": "/",
+        "role": "Full Stack Development Intern",
+        "duration": "Sep. 2024 – Dec. 2024",
+        "location": "Remote",
+        "description": [
+            "Debugged and optimized a production-grade web application built with Flask and Docker, deployed on AWS EC2.",
+            "Implemented the golden flow for capturing B2B quotation requests, improving lead management efficiency and aligning with business requirements.",
+            "Configured and managed DNS and Nginx as a reverse proxy, enhancing domain routing, SSL handling, and reducing manual deployment overhead."
+        ],
+        "tech": [
+            "Flask",
+            "AWS EC2",
+            "Docker",
+            "HTML/CSS/JS"
+        ]
+      },
+    {
+        "organization": "Climec Labs",
+        "url": "https://climeclabs.com/",
+        "role": "SDE Intern",
+        "duration": "Nov. 2023 – Dec. 2023",
+        "location": "Chennai,Tamil Nadu",
+        "description": [
+            "Developed a cross-platform IoT application for air purifiers, enabling users to control devices, fan speed and monitor air quality in real-time through an intuitive interface.",
+            "Implemented data visualization dashboards to display air quality metrics, helping users track performance and make informed decisions."
+        ],
+        "tech": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Getx"
+        ]
+      }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "organization": "SRMKzilla",
+        "url": "https://www.srmkzilla.net/",
+        "role": "Technical Lead",
+        "duration": "Jun. 2024 – Present",
+        "location": "Chennai, Tamil Nadu",
+        "description": [
+            "Started as a member, promoted to Technical Lead, overseeing up to 3 development projects and guiding collaborative development initiatives and technical strategies within the club’s technology team.",
+            "Conducted sessions, provided guidance, resolved technical inquiries and communicated with other team members to ensure smooth development.",
+            "Led development as Project Lead for a Collaboration App connecting developers with open source opportunities, conducting weekly code reviews to ensure clean, modular and maintainable code."
+        ],
+        "tech": [
+            "Flutter",
+            "Dart",
+            "React Native",
+            "Expo",
+            "Tailwind CSS"
+        ]
+      },
+    {
+        "organization": "Google Developer Students Clubs SRM",
+        "url": "https://www.gdscsrm.com/",
+        "role": "Member",
+        "duration": "Apr. 2023 – Sept. 2024",
+        "location": "Chennai,Tamil Nadu",
+        "description": [
+            "Partnered with a team of 4 to develop an application for event management, facilitating seamless event uploads and registration processes",
+            "Worked with cross-functional teams to integrate feedback and enhance app functionalities, resulting in 60% improvements in managing events, participants, and registrations for the club"
+        ],
+        "tech": [
+            "Flutter",
+            "Dart",
+            "Getx"
+        ]
+      }
+]

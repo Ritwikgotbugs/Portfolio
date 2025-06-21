@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Bash India",
+    "subtitle": "Contributed to the development of a platform for Clubs in India, enabling them to manage events, staff, and finances and valets.",
+    "githubUrl": "https://github.com/Ritwikgotbugs/",
+    "url": "https://bash.spraresoft.com/",
+    "isLive": true,
+    "isApp": true,
+    "stack":  [
+            "NodeJs",
+            "ExpressJs",
+            "Docker",
+            "MariaDB",
+            "Flutter",
+            "Dart"
+        ],
+    "img1": "/assets/bash1.png",
+    "img2": "/assets/bash2.png",
+    "isCodeLive": false
+
+  },
+  {
+    "title": "BizAarambh",
+    "subtitle": "Aims to bring a starup in India from Zero to One. Managing licensing, registrations and connecting businesses to Government schemes.",
+    "githubUrl": "https://github.com/Ritwikgotbugs/BizAarambh",
+    "url": "https://biz-virid.vercel.app/",
+    "isLive": false,
+    "isApp": false,
+    "stack": ["AWS (EC2)","Docker", "Firebase","Flask","NextJs"],
+    "img1": "/assets/biz.png",
+    "isCodeLive": true
+  },
+  {
+    "title": "Xpens",
+    "subtitle": "Expense tracking app to gain control over finances and track daily expenses effortlessly.",
+    "githubUrl": "https://github.com/Ritwikgotbugs/Xpens",
+    "isLive": true,
+    "isApp": true,
+    "url": "https://github.com/Ritwikgotbugs/Xpens/releases/tag/Xpens",
+    "stack": ["Flutter", "Dart", "Supabase", "Getx"]  ,
+    "img1": "/assets/x1.png",
+    "img2": "/assets/x2.png",
+    "isCodeLive": true
+  },
+  {
+    "title": "Musician.ai",
+    "subtitle": "Smart music generator that creates unique tracks based on user's emotions and mood",
+    "githubUrl": "https://github.com/Ritwikgotbugs/Musician",
+    "isLive": true,
+    "isApp": true,
+    "url": "https://github.com/Ritwikgotbugs/Xpens/releases/tag/Xpens",
+    "stack": ["Flutter", "Dart", "Supabase", "Getx"]  ,
+    "img1": "/assets/music1.jpg",
+    "img2": "/assets/music2.jpg",
+    "isCodeLive": true
+  },
+  {
+    "title": "MitiFlood",
+    "subtitle": "An application that provides real-time flood alerts and information to users",
+    "githubUrl": "https://github.com/Ritwikgotbugs/MitiFlood",
+    "url": "https://github.com/Ritwikgotbugs/MitiFlood/releases/tag/Latest",
+    "isLive": true,
+    "isApp": true,
+    "stack": ["React-Native", "Expo", "Appwrite", "Tailwind CSS" ],
+    "img1": "/assets/miti1.jpg",
+    "img2": "/assets/miti2.jpg",
+    "isCodeLive": true
+
+  }
+]
