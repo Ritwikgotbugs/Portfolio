@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IoIosAt } from 'react-icons/io';
 import { Experience as ExperienceCard } from './experience';
 import { ProjectsTile } from './projects';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel';
+import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 
 interface ExperienceProps {
   tech: string[];
@@ -52,7 +52,7 @@ export default function MobileHome() {
         </a>
       </div>
 
-      <div className="mb-4 rounded-lg p-1">
+      <div className="mb-4 rounded-lg">
         <div className="text-lg font-bold text-zinc-300 mb-1">about</div>
         <div className="text-zinc-400 text-xs mb-4">
           making things work — a software engineer.
@@ -64,42 +64,38 @@ export default function MobileHome() {
         </div>
       </div>
 
-      <div className="mb-2 mt-2 flex flex-col items-center">
+      <div className="mt-2 mb-2 flex flex-col items-center w-full">
         <div className="text-lg font-semibold text-zinc-200 ">Experience</div>
         <div className="text-xs text-zinc-600 mb-1">swipe left</div>
-        <div className="w-full flex justify-center">
-          <Carousel className="w-screen ml-4">
+        <div className="w-full">
+          <Carousel className="w-full">
             <CarouselContent>
               {experience.map((exp, idx) => (
                 <CarouselItem key={idx} className="px-2">
-                  <div className="rounded-lg px-6">
+                  <div className="rounded-lg px-6 justify-end">
                     <ExperienceCard {...exp} />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
         </div>
       </div>
 
-      <div className="flex flex-col items-center">
-        <div className="text-lg font-semibold text-zinc-200 mt-2">Projects</div>
+      <div className="flex flex-col items-center w-full">
+        <div className="text-lg font-semibold text-zinc-200">Projects</div>
         <div className="text-xs text-zinc-600 mb-1">swipe left</div>
-        <div className="w-full flex justify-center">
-          <Carousel className="w-screen ml-4">
+        <div className="w-full">
+          <Carousel className="w-full">
             <CarouselContent>
               {projects.map((proj, idx) => (
                 <CarouselItem key={idx} className="p-2">
-                  <div className="rounded-lg px-6 max-w-sm mx-auto">
+                  <div className="rounded-lg px-6">
                     <ProjectsTile {...proj} />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
         </div>
       </div>

@@ -18,7 +18,7 @@ export default function Layout({ children }: LayoutProps) {
           <Sidebar />
         </aside>
 
-        <div className="flex-1 h-full overflow-y-auto p-2 md:p-6">
+        <div className="flex-1 h-full overflow-y-auto p-1 md:p-6">
           <main className="w-full h-full rounded-xl">{children}</main>
         </div>
       </div>
