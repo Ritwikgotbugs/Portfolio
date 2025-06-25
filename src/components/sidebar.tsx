@@ -90,7 +90,7 @@ export default function Sidebar() {
             <button
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1VEcAe7JJo0Vw9N8UMkGNA04nURhH1X5A/view?usp=drive_link'
+                  'https://drive.google.com/file/d/16v6648uqBIK8kwDyJh4glWDefEXISpKv/view?usp=drive_link'
                 )
               }
               className="relative  cursor-pointer border-2 border-zinc-700 bg-opacity-20 group-hover:border-transparent bg-zinc-900 text-white py-1 px-3 rounded-lg text-sm md:text-base z-10 transition-all duration-300
