@@ -43,7 +43,7 @@ export default function MobileHome() {
         <div className="text-xl font-bold text-zinc-200">Ritwik Sharma</div>
         <div className="text-sm text-zinc-400 mb-2 italic">Software Engineer</div>
         <a
-          href="https://drive.google.com/file/d/16v6648uqBIK8kwDyJh4glWDefEXISpKv/view?usp=drive_link"
+          href="https://drive.google.com/file/d/18Pc0hcDXYd-TR6honOhJxmkC__RBLt2M/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-zinc-900 text-white px-6 py-2 rounded-md text-xs font-semibold hover:bg-zinc-700 transition"
@@ -111,7 +111,7 @@ export default function MobileHome() {
           </a>
         </div>
         <a
-          href="https://drive.google.com/file/d/16v6648uqBIK8kwDyJh4glWDefEXISpKv/view?usp=drive_link"
+          href="https://drive.google.com/file/d/18Pc0hcDXYd-TR6honOhJxmkC__RBLt2M/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white px-4 py-2 rounded-md text-xs font-semibold transition border border-zinc-700"
